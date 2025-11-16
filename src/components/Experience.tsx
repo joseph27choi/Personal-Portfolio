@@ -27,18 +27,6 @@ const experiences = [
       'Built an OpenAI-powered chatbot with Redis vector embeddings for low-latency semantic search.'
     ]
   },
-  {
-    company: 'Personal Projects',
-    role: 'Embedded Systems Developer',
-    period: 'Ongoing',
-    location: 'Waterloo, ON',
-    description: [
-      'Designed an STM32-based water irrigation automator with PWM motor control, servo routing, and UART interface.',
-      'Developed PID temperature control firmware using ADC feedback and PWM-driven actuators.',
-      'Implemented a custom UART bootloader supporting flash erase/write, checksum validation, and vector table remapping.',
-      'Programmed ARM Assembly on the LPC1768 for Morse code interpretation via GPIO and timer interrupts.'
-    ]
-  }
 ];
 
 const Experience = () => (
